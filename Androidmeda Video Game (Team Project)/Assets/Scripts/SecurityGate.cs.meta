@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: df47a3f0098c44e0aa9fba13743a2485
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - unlockcolor: {instanceID: 0}
+  - keyUnlockClip: {instanceID: 0}
+  - getKeyClip: {instanceID: 0}
+  - doorOpenClip: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

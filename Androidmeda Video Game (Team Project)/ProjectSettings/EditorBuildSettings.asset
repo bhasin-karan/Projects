@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/OpenScene.unity
+    guid: cb927e7029de8434c83c406c509b6a34
+  - enabled: 1
+    path: Assets/Scenes/CaptainLogStart.unity
+    guid: 2bb848c584beb4c8882f8fd5806803b0
+  - enabled: 1
+    path: Assets/Scenes/_FinalGame.unity
+    guid: fa3765953855e9ca8bdd3dbe2f32254c
+  - enabled: 1
+    path: Assets/Scenes/CaptainLogGameOver.unity
+    guid: 7b2490057cc634d3ba5ee619d15059bd
+  - enabled: 1
+    path: Assets/Scenes/CaptainLogEnd.unity
+    guid: 339b41cc78ebd4b9dacf15c85273ebea
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 3cdaea76330164724866400373ff4b8d
+  m_configObjects: {}
