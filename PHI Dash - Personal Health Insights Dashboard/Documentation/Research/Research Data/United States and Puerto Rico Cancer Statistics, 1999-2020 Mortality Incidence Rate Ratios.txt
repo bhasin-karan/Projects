@@ -1,0 +1,135 @@
+"Notes"	"Cancer Sites"	"Cancer Sites Code"	Mortality-Incidence Age-Adjusted Rate Ratio
+	"All Cancer Sites Combined"	"0"	0.366
+	"Oral Cavity and Pharynx"	"20010-20100"	0.222
+	"Lip"	"20010"	0.032
+	"Tongue"	"20020"	0.190
+	"Salivary Gland"	"20030"	0.197
+	"Floor of Mouth"	"20040"	0.053
+	"Gum and Other Mouth"	"20050"	0.233
+	"Nasopharynx"	"20060"	0.361
+	"Tonsil"	"20070"	0.118
+	"Oropharynx"	"20080"	0.448
+	"Hypopharynx"	"20090"	0.153
+	"Other Oral Cavity and Pharynx"	"20100"	1.598 (Unreliable)
+	"Digestive System"	"21010-21130"	0.513
+	"Esophagus"	"21010"	0.867
+	"Stomach"	"21020"	0.515
+	"Small Intestine"	"21030"	0.171
+	"Colon and Rectum"	"21041-21052"	0.363
+	"Colon excluding Rectum"	"21041-21049"	0.415
+	"Rectum and Rectosigmoid Junction"	"21051-21052"	0.230
+	"Anus, Anal Canal and Anorectum"	"21060"	0.138
+	"Liver and Intrahepatic Bile Duct"	"21071-21072"	0.805
+	"Liver"	"21071"	0.706
+	"Intrahepatic Bile Duct"	"21072"	1.434 (Unreliable)
+	"Gallbladder"	"21080"	0.549
+	"Other Biliary"	"21090"	0.286
+	"Pancreas"	"21100"	0.880
+	"Retroperitoneum"	"21110"	0.183
+	"Peritoneum, Omentum and Mesentery"	"21120"	0.397
+	"Other Digestive Organs"	"21130"	0.651
+	"Respiratory System"	"22010-22060"	0.694
+	"Nose, Nasal Cavity and Middle Ear"	"22010"	0.212
+	"Larynx"	"22020"	0.301
+	"Lung and Bronchus"	"22030"	0.722
+	"Pleura"	"22050"	0.649
+	"Trachea, Mediastinum and Other Respiratory Organs"	"22060"	0.394
+	"Bones and Joints"	"23000"	0.458
+	"Soft Tissue including Heart"	"24000"	0.400
+	"Skin excluding Basal and Squamous"	"25010-25020"	0.156
+	"Melanoma of the Skin"	"25010"	0.124
+	"Other Non-Epithelial Skin"	"25020"	0.557
+	"Male and Female Breast"	"26000"	0.183
+	"Female Breast"	"26000-Female"	0.176
+	"Male Breast"	"26000-Male"	0.232
+	"Female Genital System"	"27010-27070"	0.310
+	"Cervix Uteri"	"27010"	0.294
+	"Corpus Uteri"	"27020"	0.088
+	"Uterus, NOS"	"27030"	2.742 (Unreliable)
+	"Ovary"	"27040"	0.635
+	"Vagina"	"27050"	0.309
+	"Vulva"	"27060"	0.201
+	"Other Female Genital Organs"	"27070"	0.255
+	"Male Genital System"	"28010-28040"	0.162
+	"Prostate"	"28010"	0.167
+	"Testis"	"28020"	0.046
+	"Penis"	"28030"	0.210
+	"Other Male Genital Organs"	"28040"	0.157
+	"Urinary System"	"29010-29040"	0.225
+	"Urinary Bladder"	"29010"	0.209
+	"Kidney and Renal Pelvis"	"29020"	0.244
+	"Ureter"	"29030"	0.192
+	"Other Urinary Organs"	"29040"	0.387
+	"Eye and Orbit"	"30000"	0.099
+	"Brain and Other Nervous System"	"31010-31040"	0.656
+	"Endocrine System"	"32010-32020"	0.062
+	"Thyroid"	"32010"	0.041
+	"Other Endocrine including Thymus"	"32020"	0.384
+	"Lymphomas"	"33011-33042"	0.299
+	"Hodgkin Lymphoma"	"33011-33012"	0.133
+	"Non-Hodgkin Lymphoma"	"33041-33042"	0.322
+	"Myeloma"	"34000"	0.518
+	"Leukemias"	"35011-35043"	0.488
+	"Acute Lymphocytic Leukemia"	"35011"	0.283
+	"Chronic Lymphocytic Leukemia"	"35012"	0.271
+	"Acute Myeloid Leukemia"	"35021"	0.691
+	"Chronic Myeloid Leukemia"	"35022"	0.200
+	"Other Leukemias"	"35041-35043"	1.131 (Unreliable)
+	"Other Lymphocytic Leukemia"	"35013"	0.282
+	"Acute Monocytic Leukemia"	"35031"	0.140
+	"Other Acute Leukemia"	"35041"	2.034 (Unreliable)
+	"Aleukemic, Subleukemic and NOS"	"35043"	1.667 (Unreliable)
+	"Other Myeloid/Monocytic Leukemia"	"35023"	1.295 (Unreliable)
+	"Mesothelioma"	"36010"	0.785
+	"Miscellaneous"	"37000"	0.691
+"---"
+"Dataset: United States and Puerto Rico Cancer Statistics, 1999-2020 Mortality Incidence Rate Ratios"
+"Query Parameters:"
+"Group By: Cancer Sites"
+"Show Totals: Disabled"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Standard Population: 2000 U.S. Std. Million"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/CancerMIR-v2020.html for more information."
+"---"
+"Query Date: Mar 16, 2024 10:50:15 PM"
+"---"
+"Suggested Citation: United States Cancer Statistics - Mortality Incidence Rate Ratios: 1999 - 2020, WONDER Online Database."
+"United States Department of Health and Human Services, Centers for Disease Control and Prevention and National Cancer Institute;"
+"2022 submission; 2023 release. Accessed at http://wonder.cdc.gov/CancerMIR-v2020.html on Mar 16, 2024 10:50:15 PM"
+"---"
+Footnotes:
+"1. Data for in situ Breast Cancers are not included in this dataset."
+"2. Caution should be used when interpreting these Mortality Incidence Rate Ratios as coding for death certificates and cancer"
+"incidence records may vary significantly. The cancer incidence records are likely to be coded to a more specific topographic"
+"site which may give a false impression of an elevated rate ratio. Ratio values greater than 1 are flagged as Unreliable."
+"---"
+Caveats:
+"1. 'Not Applicable' is displayed for all data values when sex-specific cancers are combined with the wrong sex. More"
+"information: http://wonder.cdc.gov/wonder/help/CancerMIR-v2020.html#Genital Cancers List."
+"2. The ""Show Totals"" checkbox is disabled when data are grouped by Cancer Sites because aggregate values are displayed in the"
+"table. Also be aware that charts and maps containing both aggregate and detail data could be misleading."
+"3. About rate comparisons: <ul><li> For consistency with the data on cancer incidence, the cancer sites in mortality data were"
+"grouped according to the revised SEER recodes dated March 1, 2018 (see SEER Cause of Death Recodes:"
+"http://seer.cancer.gov/codrecode/.). Because NCHS uses different groupings for some sites, the death rates in this report may"
+"differ slightly from those published by NCHS. In addition, under the International Classification of Diseases (ICD), there are"
+"differences in mortality and incidence coding. For example, there are several codes for mesothelioma in ICD-10 (depending on the"
+"primary site). However in ICD-O-3, one code captures all of the primary sites that mesothelioma affects. Note that Kaposi"
+"sarcoma deaths included in this dataset are only those deaths with underlying cause of death attributed to Kaposi Sarcoma, and"
+"do not include deaths where the condition was a contributing cause of death, or subsequent to another underlying condition."
+"</li><li> The population used to age-adjust the rates in this report is the 2000 U.S. standard population, which is in"
+"accordance with a 1998 recommendation of the US. Department of Health and Human Services. The 2000 U.S. standard population is"
+"based on the proportion of the 2000 population in specific age groups (younger than 1 year, 1-4 years, 5-9 years, 10-14 years,"
+"15-19 years, . . . 85 years or older); the proportions of the 2000 population in these age groups serve as weights for"
+"calculating age-adjusted incidence and death rates. NCHS, however, uses a different set of age groups in its age adjustment of"
+"death rates, and thus the cancer death rates in this report may differ slightly from those published by NCHS. </li><li> Deaths"
+"of persons of unknown age are not included in this data set. Death rates may differ slightly from other reports where deaths of"
+"persons of unknown age are included. </li></ul>"
+"4. For the 2005 year, the Census Bureau estimates that 203,937 persons were displaced from Alabama, Louisiana, Mississippi and"
+"Texas due to Hurricanes Katrina and Rita. CDC WONDER does not include the displaced persons in the 2005 population counts for"
+"these states, nor are these counts included in the summary populations for the affected division, regions or national"
+"population. However, the USCS web site does include these displaced persons in the national population figures for 2005."
+"5. Incidence data are from selected statewide and metropolitan area cancer registries that meet data quality criteria. Data"
+"shown for the United States are diagnoses, deaths and populations only from places and years for included cancer registries."

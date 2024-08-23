@@ -1,0 +1,158 @@
+"Notes"	"Cancer Sites"	"Cancer Sites Code"	Count
+	"All Invasive Cancer Sites Combined"	"0"	34382753
+	"Oral Cavity and Pharynx"	"20010-20100"	858204
+	"Lip"	"20010"	46485
+	"Tongue"	"20020"	253205
+	"Salivary Gland"	"20030"	91477
+	"Floor of Mouth"	"20040"	45345
+	"Gum and Other Mouth"	"20050"	118282
+	"Nasopharynx"	"20060"	39317
+	"Tonsil"	"20070"	149424
+	"Oropharynx"	"20080"	42454
+	"Hypopharynx"	"20090"	50784
+	"Other Oral Cavity and Pharynx"	"20100"	21431
+	"Digestive System"	"21010-21130"	6150311
+	"Esophagus"	"21010"	357539
+	"Stomach"	"21020"	493466
+	"Small Intestine"	"21030"	165490
+	"Colon and Rectum"	"21041-21052"	3211793
+	"Colon excluding Rectum"	"21041-21049"	2309788
+	"Cecum"	"21041"	486528
+	"Appendix"	"21042"	74983
+	"Ascending Colon"	"21043"	432620
+	"Hepatic Flexure"	"21044"	109793
+	"Transverse Colon"	"21045"	209109
+	"Splenic Flexure"	"21046"	70005
+	"Descending Colon"	"21047"	132370
+	"Sigmoid Colon"	"21048"	604128
+	"Large Intestine, NOS"	"21049"	190252
+	"Rectum and Rectosigmoid Junction"	"21051-21052"	902005
+	"Rectosigmoid Junction"	"21051"	232724
+	"Rectum"	"21052"	669281
+	"Anus, Anal Canal and Anorectum"	"21060"	131772
+	"Liver and Intrahepatic Bile Duct"	"21071-21072"	558320
+	"Liver"	"21071"	483501
+	"Intrahepatic Bile Duct"	"21072"	74819
+	"Gallbladder"	"21080"	82612
+	"Other Biliary"	"21090"	123270
+	"Pancreas"	"21100"	919317
+	"Retroperitoneum"	"21110"	28308
+	"Peritoneum, Omentum and Mesentery"	"21120"	40494
+	"Other Digestive Organs"	"21130"	37930
+	"Respiratory System"	"22010-22060"	5020876
+	"Nose, Nasal Cavity and Middle Ear"	"22010"	49925
+	"Larynx"	"22020"	274747
+	"Lung and Bronchus"	"22030"	4680679
+	"Pleura"	"22050"	2275
+	"Trachea, Mediastinum and Other Respiratory Organs"	"22060"	13250
+	"Bones and Joints"	"23000"	67304
+	"Soft Tissue including Heart"	"24000"	230721
+	"Skin excluding Basal and Squamous"	"25010-25020"	1589874
+	"Melanoma of the Skin"	"25010"	1471620
+	"Other Non-Epithelial Skin"	"25020"	118254
+	"Male and Female Breast"	"26000"	4968970
+	"Female Breast"	"26000-Female"	4927392
+	"Male Breast"	"26000-Male"	41578
+	"Female Genital System"	"27010-27070"	1962584
+	"Cervix Uteri"	"27010"	283320
+	"Corpus Uteri"	"27020"	997237
+	"Uterus, NOS"	"27030"	34512
+	"Ovary"	"27040"	470974
+	"Vagina"	"27050"	27618
+	"Vulva"	"27060"	101581
+	"Other Female Genital Organs"	"27070"	47342
+	"Male Genital System"	"28010-28040"	4874326
+	"Prostate"	"28010"	4656034
+	"Testis"	"28020"	182355
+	"Penis"	"28030"	28316
+	"Other Male Genital Organs"	"28040"	7621
+	"Urinary System"	"29010-29040"	2769302
+	"Urinary Bladder, invasive and in situ"	"29010"	1532094
+	"Kidney and Renal Pelvis"	"29020"	1172278
+	"Ureter"	"29030"	41925
+	"Other Urinary Organs"	"29040"	23005
+	"Eye and Orbit"	"30000"	61902
+	"Brain and Other Nervous System"	"31010-31040"	473968
+	"Brain"	"31010"	443562
+	"Cranial Nerves Other Nervous System"	"31040"	30406
+	"Endocrine System"	"32010-32020"	890939
+	"Thyroid"	"32010"	837105
+	"Other Endocrine including Thymus"	"32020"	53834
+	"Lymphomas"	"33011-33042"	1602531
+	"Hodgkin Lymphoma"	"33011-33012"	186822
+	"Hodgkin - Nodal"	"33011"	182044
+	"Hodgkin - Extranodal"	"33012"	4778
+	"Non-Hodgkin Lymphoma"	"33041-33042"	1415709
+	"NHL - Nodal"	"33041"	967362
+	"NHL - Extranodal"	"33042"	448347
+	"Myeloma"	"34000"	484941
+	"Leukemias"	"35011-35043"	1009098
+	"Acute Lymphocytic Leukemia"	"35011"	105929
+	"Chronic Lymphocytic Leukemia"	"35012"	362637
+	"Acute Myeloid Leukemia"	"35021"	288220
+	"Chronic Myeloid Leukemia"	"35022"	130023
+	"Other Leukemias"	"35041-35043"	122289
+	"Other Lymphocytic Leukemia"	"35013"	31852
+	"Acute Monocytic Leukemia"	"35031"	15729
+	"Other Acute Leukemia"	"35041"	20538
+	"Aleukemic, Subleukemic and NOS"	"35043"	41264
+	"Other Myeloid/Monocytic Leukemia"	"35023"	12906
+	"Mesothelioma"	"36010"	69824
+	"Kaposi Sarcoma"	"36020"	27791
+	"Miscellaneous"	"37000"	1269287
+	"Male and Female Breast, In Situ"	"Breast-InSitu"	1145921
+	"Female Breast, In Situ"	"Breast-InSitu-Female"	1141292
+	"Male Breast, In Situ"	"Breast-InSitu-Male"	4629
+"---"
+"Dataset: United States and Puerto Rico Cancer Statistics, 1999-2020 Incidence"
+"Query Parameters:"
+"Group By: Cancer Sites"
+"Show Totals: Disabled"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Standard Population: 2000 U.S. Std. Million"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/cancer-v2020.html for more information."
+"---"
+"Query Date: Mar 16, 2024 10:57:16 PM"
+"---"
+"Suggested Citation: United States Cancer Statistics - Incidence: 1999 - 2020, WONDER Online Database. United States Department"
+"of Health and Human Services, Centers for Disease Control and Prevention and National Cancer Institute; 2022 submission; 2023"
+"release. Accessed at http://wonder.cdc.gov/cancer-v2020.html on Mar 16, 2024 10:57:16 PM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"2. Rows with suppressed Count are hidden. Use Quick Options above to show suppressed rows."
+"---"
+Footnotes:
+"1. Data for in situ breast cancers are listed separately and are not included in the ""All Invasive Cancer Sites Combined"" or"
+"""Male and Female Breast"" cancer categories."
+"---"
+Caveats:
+"1. Statistics are suppressed to protect personal privacy, for the following conditions: <ol><li> Data are suppressed if the"
+"figures represent fewer than 16 cases for the specific category in the table cell. </li><li> Counts and rates are suppressed for"
+"cells at the Metropolitan Statistical Area (MSA) level for the race categories ""American Indian or Alaska Native"" or ""Asian"
+"or Pacific Islander"" when the specific category's population for rate calculations is less than 50,000 persons. </li><li> Data"
+"are suppressed at the state and MSA level for certain race and ethnicity groups: <ul><li> American Indian or Alaska Native data"
+"are suppressed at the state and MSA level for residents of Illinois, Kansas, New Jersey, and New York; </li><li> Hispanic Asian"
+"or Pacific Islander and Hispanic Black or African American data are suppressed at the state and MSA level for residents of"
+"Kansas; </li><li> Race by ethnicity data are suppressed for state specific statistics for residents of North Dakota and"
+"Wisconsin. Ethnicity data are also suppressed for residents of North Dakota and Wisconsin. </li></ul> </li></ol> States decide"
+"whether to suppress data for specific race and ethnicity categories. The suppression criteria may vary in previous releases of"
+"these data More information: http://wonder.cdc.gov/wonder/help/cancer-v2020.html#Confidentiality."
+"2. 'Not Applicable' is displayed for all data values when sex-specific cancers are combined with the wrong sex. More"
+"information: http://wonder.cdc.gov/wonder/help/cancer-v2020.html#Genital Cancers List."
+"3. The ""Show Totals"" checkbox is disabled when data are grouped by Cancer Sites or by Childhood Cancer, because aggregate"
+"values are displayed in the table. Also be aware that charts and maps containing both aggregate and detail data could be"
+"misleading."
+"4. Data are from selected statewide and metropolitan area cancer registries that meet data quality criteria. Incidence data"
+"shown for the United States are diagnoses and populations from included registries only."
+"5. Information on primary site, behavior, and histology was coded according to the International Classification of Diseases for"
+"Oncology, Third Edition (ICD-O-3) and categorized according to the revised SEER recodes dated March 1, 2018, which define"
+"standard groupings of primary cancer sites."
+"6. For the 2005 year, the Census Bureau estimates that 203,937 persons were displaced from Alabama, Louisiana, Mississippi and"
+"Texas due to Hurricanes Katrina and Rita. CDC WONDER does not include the displaced persons in the 2005 population counts for"
+"these states, nor are these counts included in the summary populations for the affected division, regions or national"
+"population. However, the USCS web site does include these displaced persons in the national population figures for 2005."

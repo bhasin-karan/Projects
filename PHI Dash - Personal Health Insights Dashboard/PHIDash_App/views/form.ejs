@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PHI Dash Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>PHI Dash</h1>
+    </header>
+
+    <div class = "form-group">
+        <h3>Please enter your details</h3>
+        <form action="/submit-form" method="post">
+        Age: <input type="number" name="age" min="0" max="116" required><br>
+        Sex:
+        <select name="sex" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br>
+        Race:
+        <select name="race" required>
+            <option value="White">White</option>
+            <option value="Black or African American">Black or African American</option>
+            <option value="American Indian or Alaska Native">American Indian or Alaska Native</option>
+            <option value="Asian or Pacific Islander">Asian or Pacific Islander</option>
+            <option value="Other Races and Unknown combined">Other</option>
+        </select><br>
+        Weight (lbs): <input type="number" name="weight" min="5" max="1000" required><br>
+        Height (Feet): <input type="number" name="heightFeet" min="0" max="9" required><br>
+        Height (Inches): <input type="number" name="heightInches" min="0" max="11" required><br>
+        Physical Activity: <select name="physicalActivity" required>
+                <option value="0">Sedentary - 0-1 times a week</option>
+                <option value="1">Moderate - 2-4 times a week</option>
+                <option value="2">High - 5-7 times a week</option>
+        </select><br>
+        Family History (Cancer): <select name="familyHistoryCancer" required>
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br>
+        Family History (Heart Disease): <select name="familyHistoryHeartDisease" required>
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br>
+        <button type="submit">Get Insight</button>
+        </form>
+    </div>
+</body>
+</html>

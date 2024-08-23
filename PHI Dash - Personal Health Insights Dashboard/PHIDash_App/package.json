@@ -1,0 +1,21 @@
+{
+  "name": "PhiDash_App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "python-shell": "^5.0.0"
+  },
+  "engines": {
+    "node": "20.11.1"
+  }
+}

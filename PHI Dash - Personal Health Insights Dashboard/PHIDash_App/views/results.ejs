@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Health Scores</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header>
+    <h1>PHI Dash</h1>
+    <a href="/">Start Over</a>
+</header>
+
+<div class="result-group">
+    <h2>Your Health Scores</h2>
+    <h3>Your BMI is: <%= bmiText %></h3>
+    <h3>Cancer Risk: <%= cancerRisk %></h3>
+    <h3>Heart Disease Risk: <%= heartDiseaseRisk %></h3>
+    <h2>Your Dashboards</h2>
+    <iframe src="<%= tableauCancerDashboardUrl %>" width="1200" height="800"></iframe>
+    <br>
+    <iframe src="<%= tableauHeartDashboardUrl %>" width="1200" height="800"></iframe>
+</div>
+</body>
+</html>
