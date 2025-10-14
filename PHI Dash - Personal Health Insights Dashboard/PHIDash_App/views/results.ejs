@@ -1,26 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Health Scores</title>
+    <title>Your Health Insights - PHI Dash</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-<header>
-    <h1>PHI Dash</h1>
-    <a href="/">Start Over</a>
-</header>
+    <nav class="top-banner">
+        <a href="/" class="banner-logo">
+            <span class="logo-text">PHI DASH</span>
+        </a>
+    </nav>
 
-<div class="result-group">
-    <h2>Your Health Scores</h2>
-    <h3>Your BMI is: <%= bmiText %></h3>
-    <h3>Cancer Risk: <%= cancerRisk %></h3>
-    <h3>Heart Disease Risk: <%= heartDiseaseRisk %></h3>
-    <h2>Your Dashboards</h2>
-    <iframe src="<%= tableauCancerDashboardUrl %>" width="1200" height="800"></iframe>
-    <br>
-    <iframe src="<%= tableauHeartDashboardUrl %>" width="1200" height="800"></iframe>
-</div>
+    <main>
+        <div class="results-page">
+            <div class="scores-wrapper">
+                <h2 class="scores-title heading-secondary gradient-heading">Your Risk Scores</h2>
+                <div class="health-scores">
+                    <div class="score-card">
+                        <h3>Body Mass Index</h3>
+                        <div class="score-value"><%= bmiText %></div>
+                    </div>
+                    <div class="score-card">
+                        <h3>Cancer Risk</h3>
+                        <div class="score-value"><%= cancerRisk %></div>
+                    </div>
+                    <div class="score-card">
+                        <h3>Heart Disease Risk</h3>
+                        <div class="score-value"><%= heartDiseaseRisk %></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboards-wrapper">
+                <h2 class="dashboards-title heading-secondary gradient-heading">Your Personalized Dashboards</h2>
+                <div class="dashboard-container">
+                    <div class="tabs">
+                        <button class="tab-button active" onclick="switchTab(event, 'cancer')">
+                            Cancer Dashboard
+                        </button>
+                        <button class="tab-button" onclick="switchTab(event, 'heart')">
+                            Heart Disease Dashboard
+                        </button>
+                    </div>
+
+                    <div id="cancer" class="tab-content active">
+                        <iframe src="<%= tableauCancerDashboardUrl %>" width="1200" height="800"></iframe>
+                    </div>
+
+                    <div id="heart" class="tab-content">
+                        <iframe src="<%= tableauHeartDashboardUrl %>" width="1200" height="800"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+    function switchTab(event, tabName) {
+        // Hide all tab contents
+        const tabContents = document.getElementsByClassName('tab-content');
+        for (let i = 0; i < tabContents.length; i++) {
+            tabContents[i].classList.remove('active');
+        }
+
+        // Remove active class from all tab buttons
+        const tabButtons = document.getElementsByClassName('tab-button');
+        for (let i = 0; i < tabButtons.length; i++) {
+            tabButtons[i].classList.remove('active');
+        }
+
+        // Show the selected tab content
+        document.getElementById(tabName).classList.add('active');
+
+        // Add active class to the clicked button
+        event.currentTarget.classList.add('active');
+    }
+    </script>
 </body>
 </html>

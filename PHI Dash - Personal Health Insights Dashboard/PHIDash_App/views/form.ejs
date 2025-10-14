@@ -1,51 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>PHI Dash Home</title>
+    <title>PHI Dash - Personal Health Insights</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <header>
-        <h1>PHI Dash</h1>
-    </header>
+    <nav class="top-banner">
+        <a href="/" class="banner-logo">
+            <span class="logo-text">PHI DASH</span>
+        </a>
+    </nav>
 
-    <div class = "form-group">
-        <h3>Please enter your details</h3>
-        <form action="/submit-form" method="post">
-        Age: <input type="number" name="age" min="0" max="116" required><br>
-        Sex:
-        <select name="sex" required>
-            <option value="Male">Male</option>
-            <option value="Female">Female</option>
-        </select><br>
-        Race:
-        <select name="race" required>
-            <option value="White">White</option>
-            <option value="Black or African American">Black or African American</option>
-            <option value="American Indian or Alaska Native">American Indian or Alaska Native</option>
-            <option value="Asian or Pacific Islander">Asian or Pacific Islander</option>
-            <option value="Other Races and Unknown combined">Other</option>
-        </select><br>
-        Weight (lbs): <input type="number" name="weight" min="5" max="1000" required><br>
-        Height (Feet): <input type="number" name="heightFeet" min="0" max="9" required><br>
-        Height (Inches): <input type="number" name="heightInches" min="0" max="11" required><br>
-        Physical Activity: <select name="physicalActivity" required>
-                <option value="0">Sedentary - 0-1 times a week</option>
-                <option value="1">Moderate - 2-4 times a week</option>
-                <option value="2">High - 5-7 times a week</option>
-        </select><br>
-        Family History (Cancer): <select name="familyHistoryCancer" required>
-            <option value="0">No</option>
-            <option value="1">Yes</option>
-        </select><br>
-        Family History (Heart Disease): <select name="familyHistoryHeartDisease" required>
-            <option value="0">No</option>
-            <option value="1">Yes</option>
-        </select><br>
-        <button type="submit">Get Insight</button>
-        </form>
-    </div>
+    <main>
+        <div class="page-container">
+            <div class="form-wrapper">
+                <h2 class="form-page-title heading-primary gradient-heading">Discover Your Personal Health Insights</h2>
+                <div class="outer-container">
+                    <form action="/submit-form" method="post">
+                        <div class="form-grid">
+                            <div class="form-field">
+                                <label>Age</label>
+                                <input type="number" name="age" min="0" max="116" required>
+                            </div>
+
+                            <div class="form-field">
+                                <label>Sex</label>
+                                <select name="sex" required>
+                                    <option value="">Select</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div>
+
+                            <div class="form-field">
+                                <label>Race</label>
+                                <select name="race" required>
+                                    <option value="">Select</option>
+                                    <option value="White">White</option>
+                                    <option value="Black or African American">Black or African American</option>
+                                    <option value="American Indian or Alaska Native">Native American</option>
+                                    <option value="Asian or Pacific Islander">Asian/Pacific Islander</option>
+                                    <option value="Other Races and Unknown combined">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-field">
+                                <label>Weight (lbs)</label>
+                                <input type="number" name="weight" min="5" max="1000" required>
+                            </div>
+
+                            <div class="form-field">
+                                <label>Height (ft)</label>
+                                <input type="number" name="heightFeet" min="0" max="9" required>
+                            </div>
+
+                            <div class="form-field">
+                                <label>Height (in)</label>
+                                <input type="number" name="heightInches" min="0" max="11" required>
+                            </div>
+
+                            <div class="form-field">
+                                <label>Activity Level</label>
+                                <select name="physicalActivity" required>
+                                    <option value="">Select</option>
+                                    <option value="0">Sedentary</option>
+                                    <option value="1">Moderate</option>
+                                    <option value="2">High</option>
+                                </select>
+                            </div>
+
+                            <div class="form-field">
+                                <label>Family History - Cancer</label>
+                                <select name="familyHistoryCancer" required>
+                                    <option value="">Select</option>
+                                    <option value="0">No</option>
+                                    <option value="1">Yes</option>
+                                </select>
+                            </div>
+
+                            <div class="form-field">
+                                <label>Family History - Heart Disease</label>
+                                <select name="familyHistoryHeartDisease" required>
+                                    <option value="">Select</option>
+                                    <option value="0">No</option>
+                                    <option value="1">Yes</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Get Health Insights</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

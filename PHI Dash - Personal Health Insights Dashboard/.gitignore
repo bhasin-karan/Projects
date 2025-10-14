@@ -1,0 +1,19 @@
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Node
+PHIDash_App/node_modules/
+
+# Python virtual environment
+PHIDash_App/env/
+
+# Python cache
+PHIDash_App/RiskScoreCalc/__pycache__/
+PHIDash_App/RiskScoreCalc/**/*.pyc
+
+# JetBrains IDE config
+PHIDash_App/.idea/
+
+# Logs
+*.log

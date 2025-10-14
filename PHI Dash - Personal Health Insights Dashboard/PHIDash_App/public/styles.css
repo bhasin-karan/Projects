@@ -1,32 +1,413 @@
-body, html {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 50%, #16213e 100%);
+    color: #e0e0e0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+}
+
+main {
+    padding: 30px 10px;
+}
+
+/* Top Banner */
+.top-banner {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(15, 15, 30, 0.95);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(102, 126, 234, 0.2);
+    padding: 15px 30px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+.banner-logo {
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.banner-logo:hover {
+    transform: translateX(3px);
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Form Page */
+.page-container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: start;
-    font-family: Arial, sans-serif;
+    min-height: calc(100vh - 150px);
 }
 
-header {
-    text-align: center;
-    margin-top: 20px;
+.form-wrapper {
+    max-width: 900px;
+    width: 100%;
+    background: rgba(26, 26, 46, 0.3);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(102, 126, 234, 0.2);
+    border-radius: 20px;
+    padding: 25px;
 }
 
-.form-group {
-    margin-top: 20px;
+.gradient-heading {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.heading-primary {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+}
+
+.heading-secondary {
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.form-page-title {
+    margin-bottom: 20px;
+}
+
+.outer-container {
+    width: 100%;
+    padding: 25px;
+    background: rgba(26, 26, 46, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 2px solid rgba(102, 126, 234, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 10px;
 }
 
-.result-group {
-    margin-top: 20px;
-    text-align: center;
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-bottom: 30px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-field label {
+    font-size: 0.85rem;
+    color: #a0a0b0;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    height: 44px;
+    padding: 0 14px;
+    background: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    color: #e0e0e0;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='rgba(255,255,255,0.5)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 18px;
+    padding-right: 40px;
+}
+
+input[type="number"]:focus,
+select:focus {
+    outline: none;
+    border-color: rgba(102, 126, 234, 0.6);
+    background: #0a0a0a;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.15);
+}
+
+select option {
+    background: #000000;
+    color: #e0e0e0;
+    padding: 10px;
+}
+
+.submit-btn {
+    padding: 12px 32px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    margin: 0 auto;
+    letter-spacing: 0.5px;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(102, 126, 234, 0.6);
+}
+
+.submit-btn:active {
+    transform: translateY(0);
+}
+
+/* Results Page */
+.results-page {
+    max-width: calc(100vw - 20px);
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.scores-wrapper {
+    background: rgba(26, 26, 46, 0.5);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(102, 126, 234, 0.3);
+    border-radius: 15px;
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.scores-title {
+    white-space: nowrap;
+    min-width: 150px;
+}
+
+.health-scores {
+    display: flex;
+    gap: 15px;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.score-card {
+    background: rgba(15, 15, 30, 0.6);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(102, 126, 234, 0.2);
+    border-radius: 10px;
+    padding: 12px 18px;
+    flex: 1;
+    min-width: 140px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.score-card h3 {
+    font-size: 0.75rem;
+    color: #a0a0b0;
+    font-weight: 500;
+    margin-bottom: 6px;
+    letter-spacing: 0.3px;
+}
+
+.score-card .score-value {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #667eea;
+}
+
+.dashboards-wrapper {
+    background: rgba(26, 26, 46, 0.3);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(102, 126, 234, 0.2);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.dashboards-title {
+    white-space: nowrap;
+    min-width: 150px;
+    margin-bottom: 12px;
+}
+
+.dashboard-container {
+    background: rgba(26, 26, 46, 0.6);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(102, 126, 234, 0.3);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    position: relative;
+    width: 100%;
+}
+
+.tabs {
+    display: flex;
+    background: rgba(15, 15, 30, 0.6);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tab-button {
+    flex: 1;
+    padding: 12px 16px;
+    background: transparent;
+    border: none;
+    color: #a0a0b0;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.tab-button:hover {
+    color: #e0e0e0;
+    background: rgba(102, 126, 234, 0.1);
+}
+
+.tab-button.active {
+    color: #667eea;
+    background: rgba(102, 126, 234, 0.2);
+}
+
+.tab-button.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.tab-content {
+    display: none;
+    padding: 0;
+    overflow-x: auto;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-content iframe {
+    width: 100%;
+    height: 800px;
+    border: none;
+    display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .top-banner {
+        padding: 12px 20px;
+    }
+
+    .logo-text {
+        font-size: 1.2rem;
+    }
+
+    main {
+        padding: 20px 10px;
+    }
+
+    .page-container {
+        min-height: auto;
+    }
+
+    .form-wrapper {
+        padding: 15px;
+    }
+
+    .heading-primary {
+        font-size: 1.3rem;
+    }
+
+    .outer-container {
+        padding: 20px;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .scores-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 12px 16px;
+    }
+
+    .heading-secondary {
+        font-size: 1.1rem;
+    }
+
+    .health-scores {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .score-card {
+        width: 100%;
+    }
+
+    .dashboards-wrapper {
+        padding: 12px;
+    }
+
+    .dashboards-title {
+        margin-bottom: 12px;
+    }
+
+    .tab-button {
+        font-size: 0.8rem;
+        padding: 10px 12px;
+    }
+
+    .tab-content iframe {
+        height: 600px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .form-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .outer-container {
+        padding: 30px;
+    }
 }
