@@ -1,3 +1,5 @@
+Builds can be found at https://kbhasin.itch.io/androidmeda
+
 ### Start scene file
 **OpenScene** will load **Alpha_chrctl**
 ### How to play and what parts of the level to oberserve technology
