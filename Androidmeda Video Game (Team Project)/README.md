@@ -1,4 +1,6 @@
-Builds can be found at https://kbhasin.itch.io/androidmeda
+Builds: https://kbhasin.itch.io/androidmeda
+Game Trailer: https://www.youtube.com/watch?v=w7IA13te76Y
+Gameplay Walkthrough: https://www.youtube.com/watch?v=RZMygYxA1sM
 
 ### Start scene file
 **OpenScene** will load **Alpha_chrctl**
